@@ -155,3 +155,17 @@ POST   http://10.x.x.x:8718/api/chat
 
 本项目主要基于以下开源项目二次开发，在此对相关项目和研究开发人员表示感谢。
 - [Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)
+
+
+**八、引用
+若使用本项目的数据、代码或模型，请引用本项目。
+```text
+@misc{Tibetan_Mental_Health_Chat,
+  author = {shajiu},
+  title = {Yak-Llama 2: 面向藏文高效扩展的大语言模型},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/Shajiu/LLM/tree/main/Tibetan_Mental_Health_Chat}},
+}
+```
