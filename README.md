@@ -157,7 +157,8 @@ POST   http://10.x.x.x:8718/api/chat
 - [Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)
 
 
-**八、引用
+**八、引用：**
+
 若使用本项目的数据、代码或模型，请引用本项目。
 ```text
 @misc{Tibetan_Mental_Health_Chat,
