@@ -166,6 +166,6 @@ POST   http://10.x.x.x:8718/api/chat
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/Shajiu/LLM/tree/main/Tibetan_Mental_Health_Chat}},
+  howpublished = {\url{git@github.com:Shajiu/Yak-Llama-2.git}},
 }
 ```
