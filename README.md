@@ -143,7 +143,7 @@ POST   http://10.x.x.x:8718/api/chat
 
 | 模型名称 | 类型 | 训练数据 |重构模型|大小|下载地址|
 | :-----| ----: | :----: |:----: |:----: |:----: |
-| Yak_Llama2_7B | 基座 | 15GB |原版LLaMA-7B|12.9 GB|https://huggingface.co/shajiu/Yak_Llama2_7B|
+| Yak_Llama2_7B | 基座 | 15GB |原版LLaMA-7B|12.9 GB|[Yak_Llama2_7B](https://huggingface.co/shajiu/Yak_Llama2_7B)|
 | Yak_Llama2_13B | 基座 |35GB |原版LLaMA-7B|24.7 GB |https://huggingface.co/shajiu/Yak_Llama2_13B|
 
 **六、免责声明：**
