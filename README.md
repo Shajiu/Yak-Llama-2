@@ -154,4 +154,4 @@ POST   http://10.x.x.x:8718/api/chat
 
 
 本项目主要基于以下开源项目二次开发，在此对相关项目和研究开发人员表示感谢。
-https://github.com/ymcui/Chinese-LLaMA-Alpaca-2
+- [Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)
