@@ -153,7 +153,7 @@ python inference_hf.py \
 - 使用vLLM进行推理加速
 
 ```sh
-python scripts/inference/inference_hf.py \
+python inference_hf.py \
     --base_model path_to_llama3_chinese_instruct_hf_dir \
     --with_prompt \
     --interactive \
