@@ -140,6 +140,26 @@ POST   http://10.x.x.x:8718/api/chat
 
 {"query":"xxxxxxxxx"}
 ```
+
+#### 7. 离线交互式对话/文件预测
+- 使用transformers库推理
+
+```sh
+python inference_hf.py \
+    --base_model path_to_llama3_chinese_instruct_hf_dir \
+    --with_prompt \
+    --interactive \
+```
+- 使用vLLM进行推理加速
+
+```sh
+python scripts/inference/inference_hf.py \
+    --base_model path_to_llama3_chinese_instruct_hf_dir \
+    --with_prompt \
+    --interactive \
+    --use_vllm 
+```
+
 **五、模型下载：**
 
 | 模型名称 | 类型 | 训练数据 |重构模型|大小|下载地址|
