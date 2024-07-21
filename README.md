@@ -166,7 +166,7 @@ python inference_hf.py \
 https://github.com/ggerganov/llama.cpp
 ```
 - 编译
-- 
+ 
 ```sh
 make LLAMA_CUBLAS=1
 ```
