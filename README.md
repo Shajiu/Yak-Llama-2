@@ -160,7 +160,7 @@ python inference_hf.py \
     --use_vllm 
 ```
 
-#### 基于llama.cpp的量化部署
+#### 8. 基于llama.cpp的量化部署
 - 安装 llama.cpp
 ```sh
 https://github.com/ggerganov/llama.cpp
