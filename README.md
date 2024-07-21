@@ -166,14 +166,21 @@ python inference_hf.py \
 https://github.com/ggerganov/llama.cpp
 ```
 - 编译
+- 
+```sh
+make LLAMA_CUBLAS=1
+```
+
 - 将上述.pth/bin模型权重转换为ggml的FP16格式
 ```
 python convert_hf_to_gguf.py ../Llama-2-7b-chat-hf/
 ```
+
 - 对FP16模型进行4-bit量化
 ```
 ./llama-quantize.exe ../Llama-2-7b-chat-hf/ggml-model-f16.gguf ../Llama-2-7b-chat-hf/ggml-model-q4_0.bin q4_0​
 ```
+
 - 交互式测试
 ```
  ./llama-cli.exe  --conversation -m ../Llama-2-7b-chat-hf/ggml-model-q4_0.bin --color -f prompts/alpaca.txt -c 2048 --temp 0.2 -n 256
