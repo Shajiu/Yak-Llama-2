@@ -173,19 +173,23 @@ make LLAMA_CUBLAS=1
 
 - 将上述.pth/bin模型权重转换为ggml的FP16格式
 ```
-python convert_hf_to_gguf.py ../Llama-2-7b-chat-hf/
+python convert_hf_to_gguf.py ../path_to_llama3_chinese_instruct_hf_dir/
 ```
 
 - 对FP16模型进行4-bit量化
 ```
-./llama-quantize.exe ../Llama-2-7b-chat-hf/ggml-model-f16.gguf ../Llama-2-7b-chat-hf/ggml-model-q4_0.bin q4_0​
+./llama-quantize.exe ../path_to_llama3_chinese_instruct_hf_dir/ggml-model-f16.gguf ../path_to_llama3_chinese_instruct_hf_dir/ggml-model-q4_0.bin q4_0​
 ```
 
 - 交互式测试
 ```
- ./llama-cli.exe  --conversation -m ../Llama-2-7b-chat-hf/ggml-model-q4_0.bin --color -f prompts/alpaca.txt -c 2048 --temp 0.2 -n 256
+ ./llama-cli.exe  --conversation -m ../path_to_llama3_chinese_instruct_hf_dir/ggml-model-q4_0.bin --color -f prompts/alpaca.txt -c 2048 --temp 0.2 -n 256
 ```
 
+- 服务版本
+```sh
+./llama-server.exe -m ../path_to_llama3_chinese_instruct_hf_dir/ggml-model-q4_0.gguf -c 2048
+```
 **五、模型下载：**
 
 | 模型名称 | 类型 | 训练数据 |重构模型|大小|下载地址|
