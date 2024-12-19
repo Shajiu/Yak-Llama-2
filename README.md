@@ -194,16 +194,22 @@ python convert_hf_to_gguf.py ../path_to_llama3_chinese_instruct_hf_dir/
 
 | 模型名称 | 类型 | 训练数据 |重构模型|大小|下载地址|
 | :-----| ----: | :----: |:----: |:----: |:----: |
-| TibetanGeneral corpus | 基座 | 15GB |原版LLaMA-7B|12.9 GB|[Yak_Llama2_7B](https://huggingface.co/shajiu/Yak_Llama2_7B)|
-| TibetanSft corpus     | 基座 | 1GB  |原版LLaMA-7B|24.7 GB |[Yak_Llama2_13B](https://huggingface.co/shajiu/Yak_Llama2_13B)|
+| Yak_Llama2_7B | 基座 | 8B |原版LLaMA-7B|12.9 GB|[Yak_Llama2_7B](https://huggingface.co/shajiu/Yak_Llama2_7B)|
+| Yak_Llama2_13B    | 基座 | 13B  |原版LLaMA-7B|24.7 GB |[Yak_Llama2_13B](https://huggingface.co/shajiu/Yak_Llama2_13B)|
 
 
-** 六、数据集下载
+**六、数据集下载
 
 | 数据名称 | 数据类型 | 数据规模 |下载地址|
 | :-----| ----: | :----: |:----: |
-| Yak_Llama2_7B | 基座 |12.9 GB|[Yak_Llama2_7B](https://huggingface.co/shajiu/Yak_Llama2_7B)|
-| Yak_Llama2_13B | 基座|24.7 GB |[Yak_Llama2_13B](https://huggingface.co/shajiu/Yak_Llama2_13B)|
+| TibetanGeneral corpus | 继续预训练 | 15GB| [TibetanGeneral corpus](https://huggingface.co/datasets/shajiu/TibetanGeneral_corpus)|
+| TibetanSft corpus     | 指令微调   | 1GB | [TibetanSft corpus](https://huggingface.co/datasets/shajiu/TibetanSft_corpus)|
+
+
+出于数据安全考虑和潜在的危害性影响，我们选择不公开完整的安全测试数据集。仓库中可下载的公开测试集仅包括部分数据。但是，为了进行安全研究，研究人员可以通过邮件至`zhumx@ncut.edu.cn`进行申请。经过批准后，我们​​将向申请人提供完整的数据集。
+**声明:** 数据集包含有害违规内容示例，均不代表本团队立场。
+
+
 
 **七、免责声明：**
 
