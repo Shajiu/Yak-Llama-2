@@ -206,7 +206,7 @@ python convert_hf_to_gguf.py ../path_to_llama3_chinese_instruct_hf_dir/
 | TibetanSft corpus     | 指令微调   | 1GB | [TibetanSft corpus](https://huggingface.co/datasets/shajiu/TibetanSft_corpus)|
 
 
-出于数据安全考虑和潜在的危害性影响，我们选择不公开完整的安全测试数据集。仓库中可下载的公开测试集仅包括部分数据。但是，为了进行安全研究，研究人员可以通过邮件至`zhumx@ncut.edu.cn`进行申请。经过批准后，我们​​将向申请人提供完整的数据集。
+出于数据安全考虑和潜在的危害性影响，我们选择不公开完整的安全测试数据集。仓库中可下载的公开测试集仅包括部分数据。但是，为了进行安全研究，研究人员可以通过邮件至`shajiu_dn@163.com`进行申请。经过批准后，我们​​将向申请人提供完整的数据集。
 **声明:** 数据集包含有害违规内容示例，均不代表本团队立场。
 
 
