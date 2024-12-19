@@ -194,21 +194,29 @@ python convert_hf_to_gguf.py ../path_to_llama3_chinese_instruct_hf_dir/
 
 | 模型名称 | 类型 | 训练数据 |重构模型|大小|下载地址|
 | :-----| ----: | :----: |:----: |:----: |:----: |
-| Yak_Llama2_7B | 基座 | 15GB |原版LLaMA-7B|12.9 GB|[Yak_Llama2_7B](https://huggingface.co/shajiu/Yak_Llama2_7B)|
-| Yak_Llama2_13B | 基座 |35GB |原版LLaMA-7B|24.7 GB |[Yak_Llama2_13B](https://huggingface.co/shajiu/Yak_Llama2_13B)|
+| TibetanGeneral corpus | 基座 | 15GB |原版LLaMA-7B|12.9 GB|[Yak_Llama2_7B](https://huggingface.co/shajiu/Yak_Llama2_7B)|
+| TibetanSft corpus     | 基座 | 1GB  |原版LLaMA-7B|24.7 GB |[Yak_Llama2_13B](https://huggingface.co/shajiu/Yak_Llama2_13B)|
 
-**六、免责声明：**
+
+** 六、数据集下载
+
+| 数据名称 | 数据类型 | 数据规模 |下载地址|
+| :-----| ----: | :----: |:----: |
+| Yak_Llama2_7B | 基座 |12.9 GB|[Yak_Llama2_7B](https://huggingface.co/shajiu/Yak_Llama2_7B)|
+| Yak_Llama2_13B | 基座|24.7 GB |[Yak_Llama2_13B](https://huggingface.co/shajiu/Yak_Llama2_13B)|
+
+**七、免责声明：**
 
 本项目相关资源仅供学术研究之用，严禁用于商业用途。 使用涉及第三方代码的部分时，请严格遵循相应的开源协议。模型生成的内容受模型计算、随机性和量化精度损失等因素影响，本项目不对其准确性作出保证。对于模型输出的任何内容，本项目不承担任何法律责任，亦不对因使用相关资源和输出结果而可能产生的任何损失承担责任。本项目由个人及协作者业余时间发起并维护，因此无法保证能及时回复解决相应问题。
 
-**七、致谢：**
 
+**八、致谢：**
 
 本项目主要基于以下开源项目二次开发，在此对相关项目和研究开发人员表示感谢。
 - [Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)
 
 
-**八、引用：**
+**九、引用：**
 
 若使用本项目的数据、代码或模型，请引用本项目。
 ```text
