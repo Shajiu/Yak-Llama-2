@@ -198,7 +198,7 @@ python convert_hf_to_gguf.py ../path_to_llama3_chinese_instruct_hf_dir/
 | Yak_Llama2_13B    | 基座 | 13B  |原版LLaMA-7B|24.7 GB |[Yak_Llama2_13B](https://huggingface.co/shajiu/Yak_Llama2_13B)|
 
 
-**六、数据集下载
+**六、数据集下载**
 
 | 数据名称 | 数据类型 | 数据规模 |下载地址|
 | :-----| ----: | :----: |:----: |
