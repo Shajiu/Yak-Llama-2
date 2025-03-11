@@ -4,7 +4,8 @@
 
 
 
-![aaa](https://huggingface.co/datasets/Endeavor1024/changshi/blob/main/009f836f-b287-4fa0-b1e5-1c53ad60014c.jpg#pic_center=600x200)
+![Image](https://huggingface.co/datasets/Endeavor1024/changshi/blob/main/009f836f-b287-4fa0-b1e5-1c53ad60014c.jpg)
+
 
 
 **一、引言：**
