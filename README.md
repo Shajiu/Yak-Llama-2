@@ -2,12 +2,6 @@
 ## Yak-Llama 2: 面向藏文高效扩展的大语言模型
 ![Yak](https://github.com/Shajiu/Yak-Llama-2/blob/main/cpt_with_peft_lora/logo.png#pic_center=600x200)
 
-
-
-![Image](https://huggingface.co/datasets/Endeavor1024/changshi/blob/main/009f836f-b287-4fa0-b1e5-1c53ad60014c.jpg)
-
-
-
 **一、引言：**
 
 -  本项目开源了**Yak-Llama 2: 面向藏文高效扩展的大语言模型**，以进一步促进大模型在藏文NLP社区的开放研究。这些模型**在原版LLaMA的基础上扩充了藏文词表**并使用了藏文数据进行继续预训练，进一步提升了藏文基础语义理解能力。同时，藏文Chat模型进一步使用了藏文指令数据进行精调，显著提升了模型对指令的理解和执行能力。
