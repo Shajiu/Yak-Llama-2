@@ -1,7 +1,10 @@
 
 ## Yak-Llama 2: 面向藏文高效扩展的大语言模型
 ![Yak](https://github.com/Shajiu/Yak-Llama-2/blob/main/cpt_with_peft_lora/logo.png#pic_center=600x200)
-![Yak]([https://github.com/Shajiu/Yak-Llama-2/blob/main/cpt_with_peft_lora/logo.png](https://huggingface.co/datasets/Endeavor1024/changshi/blob/main/009f836f-b287-4fa0-b1e5-1c53ad60014c.jpg#pic_center=600x200)
+
+
+
+![aaa](https://huggingface.co/datasets/Endeavor1024/changshi/blob/main/009f836f-b287-4fa0-b1e5-1c53ad60014c.jpg#pic_center=600x200)
 
 
 **一、引言：**
